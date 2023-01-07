@@ -18,8 +18,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.dataSource = self
         tableView.delegate = self
         
+        
+        navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButton))
+        
     }
 
+    @objc func addButton() {
+        performSegue(withIdentifier: "toDetailsVC", sender: nil)
+    }
+    
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
