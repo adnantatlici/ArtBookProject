@@ -105,6 +105,7 @@
                         <outlet property="artistTF" destination="ZLw-xF-qAv" id="g23-wy-djt"/>
                         <outlet property="imageView" destination="BEC-TQ-kS4" id="x9l-yv-U6s"/>
                         <outlet property="nameTF" destination="XTp-G5-QIJ" id="Xy2-FU-Ww9"/>
+                        <outlet property="saveButton" destination="t4o-Af-s9R" id="aPY-k9-q06"/>
                         <outlet property="yearTF" destination="Xmi-ja-AcP" id="Dt4-Mm-MhG"/>
                     </connections>
                 </viewController>
